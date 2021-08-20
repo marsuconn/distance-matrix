@@ -1,5 +1,5 @@
 def od_pair(origins,destinations):
-    """takes in origin and destinations coordinates as lists, retruns od pair as tuples in a list """
+    """takes in origin and destinations coordinates as lists, retruns o-d pair as tuples in a list """
     od_pair=[]
     for i in range(len(origins)):
         for j in range(len(destinations)):
